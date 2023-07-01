@@ -1,0 +1,29 @@
+html {
+    /* cursor: none; */
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.lineClass {
+    background-color: #1d1d1d;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.lineClass:focus {
+    outline: none;
+}
+
+#box {
+    width : 200px;
+    height: 100px;
+    border: #000 1px solid;
+    padding: 10px;
+    font-family : monospace;
+    cursor : text;
+    word-wrap: break-word;
+  }
+  .hidden {
+    visibility: hidden;
+  }
